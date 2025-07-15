@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TypeFall - Typing Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>TypeFall: Beat the Fall!</h1>
+  <div id="game-container">
+    <div id="game"></div>
+    <div id="game-over">
+      <h2>Game Over 😵</h2>
+      <p>Your Score: <span id="final-score">0</span></p>
+      <button onclick="startGame()">Play Again</button>
+    </div>
+  </div>
+  <div class="status-bar">
+    <p>Score: <span id="score">0</span></p>
+    <p>Missed: <span id="missed">0</span>/5</p>
+    <button onclick="startGame()">Start Game</button>
+  </div>
+  <audio id="hit-sound" src="https://www.soundjay.com/button/sounds/button-16.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
