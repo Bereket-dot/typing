@@ -11,3 +11,4 @@ TypeFall is a fast-paced typing game built with HTML, CSS, and JavaScript. Rando
 1. Click "Start Game".
 2. Type the falling letters before they touch the bottom.
 3. Miss five letters and the game ends.
+4. 
